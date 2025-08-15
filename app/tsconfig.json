@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": "@streamlit/typescript-config/react.tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "~lib/*": ["../lib/src/*"],
+      "@streamlit/lib": ["../lib/src"],
+      "@streamlit/app": ["./src"],
+      "@streamlit/connection": ["../connection/src"],
+      "@streamlit/protobuf": ["../protobuf/src"],
+      "@streamlit/utils": ["../utils/src"]
+    }
+  },
+  "include": ["src/**/*", "../lib/declarations.d.ts", "../lib/emotion.d.ts"]
+}
