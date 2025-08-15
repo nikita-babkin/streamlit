@@ -25,7 +25,7 @@ export const WWW_PORT_DEV = 3000
  * This is the port used to connect to the server web socket when in dev.
  * IMPORTANT: If changed, also change config.py
  */
-export const WEBSOCKET_PORT_DEV = 8501
+export const WEBSOCKET_PORT_DEV = 8443
 
 /**
  * True when in development mode.
