@@ -165,7 +165,7 @@ jobs:
           # later git commands can work.
           persist-credentials: true
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           path: .
           pattern: constraints-*
