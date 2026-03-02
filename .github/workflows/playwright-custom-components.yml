@@ -48,7 +48,7 @@ jobs:
       - name: Run make playwright-custom-components
         run: make playwright-custom-components
       - name: Upload failed test results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         if: always()
         with:
           name: playwright_test_results
