@@ -31,7 +31,7 @@ jobs:
 
     steps:
       - name: Checkout Streamlit code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           persist-credentials: false
           submodules: "recursive"
@@ -125,7 +125,7 @@ jobs:
 
     steps:
       - name: Checkout Core Previews Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: streamlit/core-previews
           # The default GITHUB_TOKEN is scoped only to the triggering streamlit/streamlit repo.
