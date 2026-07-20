@@ -99,7 +99,7 @@ jobs:
           submodules: "recursive"
 
       - name: Set up Python ${{ env.PYTHON_VERSION }}
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Setup virtual env
@@ -221,7 +221,7 @@ jobs:
           persist-credentials: false
           submodules: "recursive"
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
       - name: Setup virtual env
